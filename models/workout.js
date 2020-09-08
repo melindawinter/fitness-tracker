@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Set up schema for database
 const workoutSchema = new Schema(
   {
     day: {
@@ -48,12 +49,12 @@ const workoutSchema = new Schema(
     }
   }
 );
-
+// Calculate the total duration for a continued workout
 workoutSchema.virtual("totalDuration").get(function () {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
   }, 0);
 });
-
+// Export Workout to be used with the app
 const Workout = mongoose.model("Workout", workoutSchema);
 module.exports = Workout;
