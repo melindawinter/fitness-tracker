@@ -20,16 +20,6 @@ module.exports = function (router) {
       });
   });
 
-  // router.get("/api/workouts/range", ({ query }, res) => {
-  //   Workout.find({ day: { $gte: query.start, $lte: query.end } })
-  //     .then(data => {
-  //       res.json(data);
-  //     })
-  //     .catch(err => {
-  //       res.json(err);
-  //     });
-  // });
-
   router.get("/api/workouts/range", (req, res) => {
     Workout.find({})
       .then(data => res.json(data))
