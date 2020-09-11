@@ -32,7 +32,7 @@ This app is intended for logging workouts. Click New Workout to add the informat
 
 ## Technologies
 
-HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX, APIs, Node, Express, Handlebars, MySQL, Heroku
+JavaScript, APIs, Node, Express, Mongoose, MongoDB Atlas, MongoDB Compass, Heroku
 
 ## License
 
@@ -52,4 +52,4 @@ Please contribute to this project if you feel that you can make the code more ef
 
 ## Credits
 
-Thank you to my team members Cyrus Jose and Kevin Cabe for helping me get this app working. Thanks to Jeanette Hernandez for a pep talk, ideas for getting started, helping me set up the Heroku connection, and for her general awesomeness.
+Thanks to Jeanette Hernandez for working with me on this app early on in the process, which got me off to a great start. Thank you to my tutor, Thor Nolan who helped me get the app working properly.
