@@ -22,11 +22,13 @@ You can visit the site linked to above to demo this app. If you would like to ad
 
 This app is intended for logging workouts. Click New Workout to add the information for a new round of cardio or resistance. You can choose to add additional exercises to the same workout by clicking Continue Workout. After you add your exercise, click Add Exercise if you want to add additional exercise types or click Complete if you're done logging the Workout. The app will display your last workout on the main page or you can click Fitness Tracker Dashboard to see a more detailed breakdown.
 
-![add workout](readme-images/add.png)
+![main page](readme-images/last-workout.png)
 
-![add](readme-images/add2.png)
+![choose workout](readme-images/add.png)
 
-![add](readme-images/last-workout.png)
+![add workout](readme-images/add2.png)
+
+![workout dashboard](readme-images/workout-dashboard.png)
 
 ## Technologies
 
